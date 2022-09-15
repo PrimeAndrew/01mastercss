@@ -1,0 +1,9 @@
+body{
+    background: whitesmoke;
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+    text-decoration: underline;
+}
