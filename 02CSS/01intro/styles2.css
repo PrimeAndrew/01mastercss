@@ -32,5 +32,20 @@ footer a{
     border: 2px dashed white;
 }
 /* Selector de clase */
+.parrafo{
+    font-style: italic;
+    /* text-decoration: underline; */
+    font-weight: bold;
+}
 
+.parrafo1, .parrafo3{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.parrafo3{
+    background-color: orange;
+    color: black;
+}
 /* Selector de atributo */
