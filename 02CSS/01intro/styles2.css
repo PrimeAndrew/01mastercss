@@ -1,9 +1,9 @@
-/* selestor universal */
+/* --------------------------------- selestor universal */
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Selector de etiqueta */
+/* --------------------------------- Selector de etiqueta */
 h1{
     background: red;
     color: white;
@@ -19,7 +19,7 @@ a{
 footer a{
    color: red; 
 }
-/* Selector de id */
+/* --------------------------------- Selector de id */
 #descripcion,
 #titulo
 {
@@ -31,7 +31,7 @@ footer a{
     background: blue;
     border: 2px dashed white;
 }
-/* Selector de clase */
+/* S--------------------------------- Selector de clase */
 .parrafo{
     font-style: italic;
     /* text-decoration: underline; */
@@ -48,4 +48,37 @@ footer a{
     background-color: orange;
     color: black;
 }
-/* Selector de atributo */
+/* --------------------------------- Selector de atributo */
+
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 200px;
+}
+
+input[type="submit"]{
+    background: green;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: progress;
+}
+
+/* --------------------------------- Selector de hijo */
+#menu > li > a{
+    font-size: 20px;
+    color: chocolate;
+    text-decoration: none;
+}
